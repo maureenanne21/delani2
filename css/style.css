@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP:wght@300&display=swap');
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.jumbotron{
+  background-image: url(../dela/images/h_img.jpg);
+  background-size: cover;
+  height: 40em;
+  padding-top: 10em;
+  margin-bottom: 0%;
+}
+.heading{
+    text-align: center;
+    color: whitesmoke;
+    font-size: medium;
+  }
+  .card{
+    margin-top: 0%;
+    border-radius: 0%;
+  }
+  .aboutus{
+    text-align: center;
+    line-height: 2.5em;
+  }
+  .card2{
+    margin-top: 0%;
+    border-radius: 0%;
+    background-image: url(../dela/images/s_image.jpg);
+    background-size: cover;
+    color: whitesmoke;
+}
+.services{
+  text-align: center;
+}
+.text{
+  margin-top: 5em;
+  line-height: 2.5em;
+}
+.what{
+  margin-bottom: 6em;
+  cursor: pointer;
+}
+.row{
+  text-align: center;
+}
+.col{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/*styling the portfolio section*/
+.portfolio{
+ margin-bottom: 2em;
+}
+.About{
+  margin-bottom: 3em;
+}
+h4{
+  text-align: center;
+}
+ul{
+  margin-left: auto;
+  justify-content: space-between;
+}
+li{
+  margin-left: auto;
+}
+.column{
+  flex: 25%;
+}
+.row3{
+  flex: 25%;
+}
+.card3{
+  margin-top: 2em;
+  border-radius: 0%;
+  background-image: url(../dela/images/c_image.jpg);
+  background-size: cover;
+  color: whitesmoke;
+}
+.form{
+  background: transparent;
+}
+.mouse{
+  float: center;
+}
+.contact{
+  margin-bottom: 3em;
+  color: whitesmoke;
+}
+/*hiding the images to enhance toggling*/
+#dev{
+  display: none;
+}
+#design{
+  display: none;
+}
+#manage{
+  display: none;
+}
+/*styling hover effects*/
+#port1:hover, #port2:hover, #port3:hover, #port4:hover,
+#port5:hover, #port6:hover, #port7:hover, #port8:hover{
+  opacity: 0.3;
+  color: whitesmoke;
+}
+/*styling the form button*/
+#submit{
+  color: whitesmoke;
+}
+/*stling the portfolio images*/
+.image-grid{
+  width: 90%;
+  display: flex;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+.grid-image{
+  display: block;
+  padding: 0.5em;
+  height: 12em;
+}
+/*styling the social media icons*/
+.icons-grid{
+  display: flex;
+  margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.grid-icons{
+  height: 4em;
+  display: block;
+  padding: 0.3em;
+}
+
+/*enhancing text positioning to enable hover toggle effect*/
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7,
+.pic8{
+  text-align: center;
+  position: relative;
+}
+.gallery1, .gallery2, .gallery3, .gallery4, .gallery5,
+.gallery6, .gallery7, .gallery8{
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  color: black;
+  transform: translate(-50%, -50%);
+}
+/*enhancing the website's responsiveness*/
+@media screen and (max-width: 1029px) {
+  .About {
+    margin-bottom: 2em;
+  }}
+  .card-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  body{
+    width: 100%;
+  }
+  form{
+    width: fit-content;
+  }
+
